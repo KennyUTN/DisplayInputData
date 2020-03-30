@@ -1,1 +1,42 @@
-hola
+html {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+body {
+  background-color: #ECEEF1;
+}
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: grid;
+  grid-template-column: 1fr 1fr;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+}
+
+.intuitLogo {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.mint {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.quickbooks {
+  grid-column: 2;
+  grid-row: 2;
+
+}
+
+.turbotax {
+  grid-column: 3;
+  grid-row: 2;
+}
