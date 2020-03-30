@@ -36,9 +36,13 @@ grid-column: 1;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: auto;
+
+  margin-right:  32rem;
+  margin-left:   32rem;
 }
 
 .intuitLogo {
+
   grid-column: 2;
   grid-row: 1;
 }
@@ -49,6 +53,7 @@ grid-column: 1;
 }
 
 .quickbooks {
+  background: url("Images/quickboocks.png") no-repeat fixed center;
   grid-column: 2;
   grid-row: 2;
 
@@ -63,4 +68,16 @@ grid-column: 1;
   background: #fff;
   border-radius: 2px;
   border: 1px solid #c7c7c7;
+  margin-bottom: 10rem;
+  margin-right: 32rem;
+  margin-left:   32rem;
+
+}
+
+
+.createAccount{
+
+  button-padding: 15px 48px;
+  border-radius: 4px;
+  background: #0077C5;
 }
