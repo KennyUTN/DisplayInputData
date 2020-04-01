@@ -80,22 +80,47 @@ grid-column: 1;
   grid-template-columns: 1;
   grid-template-rows: 2;
   grid-gap: 1rem;
-  background: #fff;
   border-radius: 2px;
   border: 1px solid #c7c7c7;
   margin-bottom: 10rem;
   margin-right: 32rem;
   margin-left:   37rem;
-  padding: 2rem;
-  min-width: 380px;
-  max-width: 380px;
+  min-width: 480px;
+  max-width: 480px;
   align-items: center;
+  background: #fff;
+  margin: auto;
+  overflow: visible;
+}
+
+.signIn > div {
+  background: #fff;
+  padding: 2rem;
+}
+
+.signIn > div:last-child {
+  background-color: #ECEEF1;
+  /* padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem; */
+  position: relative;
+  font-style:italic;
+  color: grey;
+  text-align:center;
 
 }
 
-.reCAPTCHA {
+.box1 {
+  align-items: center;
+}
 
-  background: #ECEEF1;
+.reCAPTCHA {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align:center;
+  background-clip: content-box;
+
 }
 .createAccount::before{
 
@@ -109,7 +134,7 @@ grid-column: 1;
 
 .createAccount{
   color: white;
-  button-padding: 15px 48px;
+  button-padding:
   border-radius: 4px;
   background: #0077C5;
 
@@ -120,15 +145,4 @@ grid-column: 1;
   font-style:italic;
   color: grey;
   text-align:center;
-}
-
-.reCAPTCHA{
-padding-left: 10em;
-padding-right:10em;
-background-color: #ECEEF1;
-font-style: italic;
-text-align:center;
-color:grey;
-/* padding-left: 190px;
-padding-right: 190px;   */
 }
