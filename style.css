@@ -14,7 +14,7 @@ nav {
   grid-template-column: 5fr 1fr 1fr;
   justify-items: end;
   margin-bottom: 5rem;
-  
+
 }
 
 .topSign {
@@ -97,10 +97,38 @@ grid-column: 1;
 
   background: #ECEEF1;
 }
+.createAccount::before{
+
+  content: "\1F512" ;
+  color: inherit;
+  background: inherit;
+  margin-right: 5px;
+
+}
+
 
 .createAccount{
-
+  color: white;
   button-padding: 15px 48px;
   border-radius: 4px;
   background: #0077C5;
+
+}
+
+.italicText {
+
+  font-style:italic;
+  color: grey;
+  text-align:center;
+}
+
+.reCAPTCHA{
+padding-left: 10em;
+padding-right:10em;
+background-color: #ECEEF1;
+font-style: italic;
+text-align:center;
+color:grey;
+/* padding-left: 190px;
+padding-right: 190px;   */
 }
