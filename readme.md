@@ -1,11 +1,10 @@
-Initial Commit
-A README
+
 Microverse #2 Project ,  Main Course HTML & CSS, Sign up Forms.
 
                                           Main Preview
 
 
-![](Images/preview.png)
+![](images/preview.png)
 
 The focus of this project is to recreate with HTML and CSS the look of the mint.com sign up page, mainly using Css's grid box.
 
@@ -17,7 +16,9 @@ CSS
 Details:
 
   Centered Signup Form
+
   Built using mainly CSS Gridbox
+
   "Already have an account" button on top right
 
 
