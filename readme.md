@@ -10,8 +10,8 @@ The focus of this project is to recreate with HTML and CSS the look of the mint.
 
                                         Built Using:
 
-HTML  
-CSS
+   HTML  
+   CSS
 
                                         Details:
 
@@ -22,7 +22,7 @@ CSS
   "Already have an account" button on top right
 
 
-Authors:
+                                        Authors:
 
 Ignacio Asis:
   Github: @KennyUTN
