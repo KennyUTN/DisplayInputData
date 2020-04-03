@@ -3,8 +3,9 @@ html {
   font-weight: normal;
 }
 body {
+
   background-color: #ECEEF1;
-  display: grid;
+  /* display: grid; */
 
 }
 
@@ -13,9 +14,14 @@ a {
 }
 
 nav {
-  display: grid;
-  justify-content: end;
-  text-align: right;
+
+  height:60px;
+  position:absolute;
+  margin-left: 87rem;
+  width: 200px;
+  margin-top: -60px;
+
+
 }
 
 input {
@@ -34,46 +40,62 @@ footer {
   text-align: center;
   text-decoration: none;
   color: #505050;
+  position: absolute;
+  margin-top: 62rem;
+  margin-left: 19rem;
+
 }
+
 
 footer a {
   text-align: center;
   text-decoration: none;
   color: #505050;
+
+}
+.pindonga{
+  margin-top:5rem;
 }
 
-
 .topSign {
-  grid-column:3;
-  grid-row-start:1;
+  position:absolute;
   border-radius: 4px;
   border: 1px solid #4c4c4c;
   background: #0077C5;
   color: white;
-  margin-right: 2rem;
-  padding: 0 20px;
+  padding: 10px 20px;
   font-size: 1.125em;
   font-weight: normal;
-  max-height: 34px;
-  box-sizing: border-box;
-}
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10em;
+  margin-top: -1.2em;
+  width:150px;
+
+  }
 
 .alText {
-  grid-column: 2;
-  grid-row: 1;
+  /* grid-column: 2;
+  grid-row: 1; */
   padding-right: 1rem;
-  justify-self: end;
-  margin-top: 2px;
-  margin-bottom: 1rem;
+  /* justify-self: end; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  line-height: 1.5;
 
 }
 
 .fPass{
-  grid-column:2;
-  grid-row: 1;
-  justify-self:end;
+  /* grid-column:2;
+  grid-row: 1; */
+  /* justify-self:end; */
+  position:absolute;
   padding-right: 1rem;
-  padding-top: 1rem;
+
+  font-size: 12px;
+  line-height: 1.5;
+  margin-right:10px;
 }
 
 .links {
@@ -83,7 +105,7 @@ footer a {
   grid-gap: 2rem;
   align-content: center;
   margin-right:  32rem;
-  margin-left:   40rem;
+  margin-left:   37rem;
   margin-bottom: 1.5rem;
   max-width: 380px;
   min-width: 380px;
@@ -119,30 +141,51 @@ footer a {
 .EPP {
   text-align: left;
   font-size: 1.2em;
-  padding-bottom: 6px;
+  }
+.EPP2{
+
+  text-align: left;
+  text-indent: 10px;
+  font-size: 0.9em;
 }
+
+
 .signIn {
   text-align: center;
-  display: grid;
-  grid-template-columns: 1;
+  /* display: grid; */
+  /* grid-template-columns: 1;
   grid-template-rows: 2;
-  grid-gap: 1rem;
+  grid-gap: 1rem; */
+  /* margin-top: -50px; */
   border-radius: 2px;
   border: 1px solid #c7c7c7;
-  margin-bottom: 10rem;
+  box-sizing: border-box;
   margin-right: 32rem;
   margin-left:   37rem;
-  min-width: 480px;
-  max-width: 480px;
+  min-width: 380px;
+  max-width: 380px;
+
 
   background: #fff;
   overflow: visible;
+  position:absolute;
 }
 
+.title{
+  font-size: 18px;
+  font-weight: 400;
+
+}
 .signIn > div {
   background: #fff;
-  padding: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
+
+/* .signIn  p {
+  font-size: 12px;
+  line-height: 0.9;
+} */
 
 .signIn > div:last-child {
   background-color: #ECEEF1;
@@ -154,6 +197,7 @@ footer a {
   font-style:italic;
   color: grey;
   text-align:center;
+  padding: 1rem;
 
 }
 
